@@ -5,10 +5,10 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.spring.boot</groupId>
-	<artifactId>405_Spring_Boot_2x_Actuator</artifactId>
+	<artifactId>SpringBoot_05_Actuator_2x</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>405_Spring_Boot_2x_Actuator</name>
+	<name>SpringBoot_05_Actuator_2x</name>
 
 	<properties>
 		<java.version>1.8</java.version>
