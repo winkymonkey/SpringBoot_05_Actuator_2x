@@ -1,0 +1,17 @@
+## Configuring info endpoint of Actuator
+info:
+  app:
+    name: Spring Boot Application
+    description: Demonstrates Actuator in Spring Boot 2.x
+    version: 1.0.0
+    java-vendor: ${java.specification.vendor}
+    testProp: abcd
+
+
+## Which endpoints to expose
+## By default, only 'info' & 'health' are enabled
+management.endpoints.web.exposure.include: info, health, custom-endpoint
+
+
+## Enable below property when you want to get more details under '/actuator/health' 
+#management.endpoint.health.show-details: always
