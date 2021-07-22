@@ -1,4 +1,4 @@
-package com.example.spring.boot;
+package org.example.spring.boot;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

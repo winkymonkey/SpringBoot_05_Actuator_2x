@@ -1,4 +1,4 @@
-package com.example.spring.boot;
+package org.example.spring.boot;
 
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;
