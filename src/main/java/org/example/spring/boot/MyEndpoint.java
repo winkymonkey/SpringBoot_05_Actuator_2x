@@ -38,6 +38,7 @@ public class MyEndpoint {
         return map;
     }
     
+    
     /**
 	 * -----------------------------------------------------------
 	 * URL: http://localhost:8080/actuator/custom-endpoint/abcd
@@ -48,6 +49,7 @@ public class MyEndpoint {
     public String readOperation2(@Selector String name) {
     	return "custom-end-point selector=" + name;
     }
+    
 
     /**
 	 * -----------------------------------------------------------
@@ -59,6 +61,7 @@ public class MyEndpoint {
     public String writeOperation() {
         return "Write operation in custom endpoint";
     }
+    
 
     /**
 	 * -----------------------------------------------------------
@@ -90,4 +93,5 @@ public class MyEndpoint {
 			this.queueStat = queueStat;
 		}
     }
+    
 }
